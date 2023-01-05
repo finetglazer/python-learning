@@ -1,1 +1,0 @@
-print("kho that day")
