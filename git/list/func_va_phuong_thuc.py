@@ -49,3 +49,29 @@ if (all(tam_giac)):
     print("Acute triangle !")
 else:
   print("Not a Triangle !")
+#chuoi 
+''' khac so vs c++ la no k the thay the phan 
+tu trong chuoi bang cach gan '''
+# 1. Replace 
+s="snow flower"
+x=s.replace('snow','sun')
+print(x)
+#2. slice 
+x=s[::-1]
+print(x)
+#3. del ko nhac den nhieu
+#4. strip rstrip and lstrip
+hi="   python   "
+print(hi.strip())
+ho="hhh hihi kaka"
+print(ho.strip('hka'))
+#5. split
+""" name.split(char)"""
+hi="kaka,keke,koko"
+x=hi.split(",")
+print(x)
+#6. join
+"""ket hop bang 1 ki tu nao do"""
+a="slap"
+b="."
+print(b.join(a)) # b ket hop boi a
