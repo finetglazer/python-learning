@@ -75,3 +75,17 @@ print(x)
 a="slap"
 b="."
 print(b.join(a)) # b ket hop boi a
+# cac ky tu dac biet 
+'''
+\n	Xuống dòng mới.
+\\	Dấu gạch chéo.
+\'	Dấu nháy đơn.
+\"	Dấu nháy kép.
+\b	Xóa ký tự.
+\f	Sang trang mới.
+\r	Giá trị trả về.
+\t	Khoảng trắng tab.
+\v	Khoảng trắng tab dọc.
+\ooo	Ký tự với giá trị hệ cơ số bát phân (cơ số 8).
+\xHH	Ký tự với giá trị hệ cơ số thập lục phân (cơ số 16).'''
+# deo dung nhieu ^^
