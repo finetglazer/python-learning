@@ -53,3 +53,24 @@ def convert(func):
 
 convert(upper)
 convert(lower)
+# lambda
+
+# lambda arguments: expression
+
+sq = lambda a: a*a 
+print(sq(5))
+
+power = lambda a, n: a**n
+print(power(5,2))
+
+#filter and map
+
+# filter pure the lst by the cond
+lst=[1,2,4,5,6]
+sq= list(filter(lambda x: x%2==0, lst))
+print(sq) 
+
+# make the new list by the cal by the func 
+
+sql=list(map(lambda x: x**2,lst))
+print(sql)
